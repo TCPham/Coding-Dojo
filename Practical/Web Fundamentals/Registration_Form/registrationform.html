@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+    <form>
+        <div>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name">
+        </div>
+        <br>
+        <div>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="pw_confirm">PW Confirm</label>
+            <input type="password" name="pw_confirm" id="pw_confirm">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <div>
+            <label for="description">A short description about yourself:</label>
+        </div>
+        <div>
+            <textarea name="description" id="description" rows="5" cols="30"></textarea>
+        </div>
+        <br>
+        <div>
+            <p>
+                <label for="lang_select">Favorite Language</label>
+                <select name="fav_language" id="fav_language">
+                    <option value="javascript">JavaScript</option>
+                    <option value="c_sharp">C#</option>
+                    <option value="java">Java</option>
+                </select>
+            </p>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
